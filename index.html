@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV - Aleks Kaczmarczyk</title>
     <link id="stylesheet" rel="stylesheet" href="./stylesheets/red.css" />
-    <script src="./js/script.js" defer></script>
+    <script type="module" src="./js/main.js" defer></script>
     <script
       src="https://kit.fontawesome.com/ac32e74fe2.js"
       crossorigin="anonymous"
@@ -59,7 +59,7 @@
           <div class="image-container">
             <img
               class="profile-picture"
-              src="./img/avatar.png"
+              src="./img/avatar4.png"
               alt="profile_pictureIMG"
             />
           </div>
@@ -138,25 +138,13 @@
             <h3 class="white-smoke">
               <i class="fa-solid fa-map-pin"></i> Umiejętności twarde
             </h3>
-            <ul>
-              <li>Angielski c2,</li>
-              <li>Znajomość Javascriptu,</li>
-              <li>Znajomość HTML'a i CSS'a,</li>
-              <li>Znajomość Node.js i express.js,</li>
-              <li>Znajomość ejs</li>
-            </ul>
+            <ul id="hard-skills"></ul>
           </div>
           <div class="soft-skills">
             <h3 class="white-smoke">
               <i class="fa-solid fa-map-pin"></i> Umiejętności miękkie
             </h3>
-            <ul>
-              <li>Zapał do nauki,</li>
-              <li>Pasja do programowania,</li>
-              <li>Opanowanie,</li>
-              <li>Logiczne myślenie,</li>
-              <li>Dobre umiejętności komunikacyjne</li>
-            </ul>
+            <ul id="soft-skills"></ul>
           </div>
         </section>
         <section class="sections experience" id="experience">
@@ -174,50 +162,17 @@
               <i class="fa-solid fa-circle-user"></i> Projekty własne (2023 –
               obecnie)
             </h3>
-            <ul>
-              <li>
-                tworzę responsywne interfejsy użytkownika (HTML5, CSS3, Flexbox,
-                Grid),
-              </li>
-              <li>implementuję logikę aplikacji w JavaScript (ES6+),</li>
-              <li>buduję backend w Node.js z wykorzystaniem Express,</li>
-              <li>tworzę routing oraz dynamiczne widoki przy użyciu EJS,</li>
-              <li>
-                pracuję z formularzami, walidacją danych oraz manipulacją DOM,
-              </li>
-              <li>dbam o czytelność i strukturę kodu.</li>
-            </ul>
+            <ul id="personal-projects"></ul>
             <h3 class="white-smoke">
               <i class="fa-solid fa-school"></i> Projekty uczelniane (2023 –
               2026)
             </h3>
-            <ul>
-              <li>tworzenie stron i aplikacji webowych,</li>
-              <li>współpracę zespołową oraz podział zadań,</li>
-              <li>analizę wymagań projektowych,</li>
-              <li>prezentację oraz dokumentację wykonanych rozwiązań,</li>
-              <li>
-                rozwój umiejętności logicznego myślenia i rozwiązywania
-                problemów.
-              </li>
-            </ul>
+            <ul id="uni-projects"></ul>
             <h3 class="white-smoke">
               <i class="fa-solid fa-arrow-trend-up"></i> Rozwój techniczny i
               kursy
             </h3>
-            <ul>
-              <li>HTML i CSS — budowanie responsywnych stron internetowych,</li>
-              <li>
-                JavaScript (ES6+) — praca z DOM, eventy, asynchroniczność,
-              </li>
-              <li>
-                Node.js i Express — tworzenie backendu oraz obsługa serwera,
-              </li>
-              <li>
-                Projektowanie stron internetowych — podstawy UI/UX i struktury
-                aplikacji.
-              </li>
-            </ul>
+            <ul id="technical-development"></ul>
           </div>
         </section>
         <section class="sections education" id="education">
@@ -238,63 +193,17 @@
             <h3 class="white-smoke">
               <i class="fa-brands fa-medapps"></i> Stack technologiczny:
             </h3>
-            <ul>
-              <li>HTML5</li>
-              <li>CSS3 (Flexbox, Grid, Responsywny design)</li>
-              <li>JavaScript (ES6+)</li>
-              <li>Node.js</li>
-              <li>Express.js</li>
-              <li>Ejs</li>
-            </ul>
+            <ul id="techno-stack"></ul>
             <div>
               <h3 class="white-smoke">
                 <i class="fa-solid fa-language"></i> Języki obce:
               </h3>
-              <article>
-                <p>Angielski – poziom C2 (biegła znajomość w mowie i piśmie)</p>
-              </article>
+              <article id="myLanguages"></article>
             </div>
           </div>
           <div class="courses">
             <h3 class="white-smoke">Moje kursy:</h3>
-            <ul>
-              <li>
-                Kurs html/css
-                <a
-                  href="https://www.udemy.com/course/web-developer-course-on-creating-a-business-website/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >link</a
-                >
-              </li>
-              <li>
-                Kurs javascript
-                <a
-                  href="https://www.udemy.com/course/the-complete-javascript-course/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >link</a
-                >
-              </li>
-              <li>
-                Kurs node.js
-                <a
-                  href="https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >link</a
-                >
-              </li>
-              <li>
-                Kurs projektowania stron internetowych
-                <a
-                  href="https://www.udemy.com/course/web-design-secrets/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >link</a
-                >
-              </li>
-            </ul>
+            <ul id="myCourses"></ul>
           </div>
         </section>
         <section class="sections projects" id="projects">
